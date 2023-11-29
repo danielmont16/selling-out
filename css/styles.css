@@ -1,0 +1,58 @@
+main{
+    height: 170vh;
+}
+img{
+    margin: 0;
+    width: 50%;    
+}
+
+section h2{
+    margin: 2% 0;
+    text-align: center;   
+}
+
+article, img{
+    margin: 0 15%;    
+}
+
+/* hover effect get in touch page */
+i:hover{
+    color: red;
+}
+
+ul{
+    list-style: none;
+}
+
+figure{
+    text-align: center;    
+}
+
+/* appliuing border radious to the contact image */
+.image-contact{
+    border-radius: 50%;
+}
+
+/* title animation */
+
+@keyframes moveText {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.main-title{
+    color: white;
+    font-family: "Press Start 2P";
+    font-size: 24px;
+    white-space: nowrap;
+    overflow: hidden;  
+    animation: moveText 10s linear infinite;
+}
+
+div.title{
+    background-color: black;
+}
